@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  padding: 24px;
+  width: 300px;
+  height: fit-content;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header div h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #120b48;
+}
+
+.header div button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.container .body_text {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: #413c6d;
+}
+
+.container .grid {
+  display: grid;
+  gap: 24px;
+}
+
+.container .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 32px;
+}
+
+.container .box1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .box1 div p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #120b48;
+}
+
+.container .box2,
+.container .box3 {
+  border: 1px solid #100a42;
+  padding: 12px 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .box2 div,
+.container .box3 div {
+  display: flex;
+  gap: 8px;
+}
+
+.container .box2 div p,
+.container .box3 div p {
+  font-size: 14px;
+  color: #120b48;
+  font-weight: 500;
+}
+
+.switch-btn {
+  width: 36px;
+  height: 20px;
+  border-radius: 12px;
+  padding: 2px;
+  background-color: #120b48;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+.switch-btn span {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  display: block;
+  filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.06))
+    drop-shadow(0px 1px 3px rgba(16, 24, 40, 0.1));
+  border-radius: 100%;
+  transform: translateX(100%);
+  transition: all 0.2s linear;
+}
+
+.container .btn {
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #120b48;
+  padding: 16px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: #120b4888;
+}
+
+button {
+    cursor: pointer;
+}

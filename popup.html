@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div>
+          <img src="/assets/icons/iCON 7 1.svg" alt="logo" />
+          <h2>HelpMeOut</h2>
+        </div>
+        <div>
+          <img src="assets/icons/setting-2.svg" alt="settings" />
+          <button>
+            <img src="assets/icons/close-circle.svg" alt="close" />
+          </button>
+        </div>
+      </header>
+      <p class="body_text">
+        This extension helps you record and share help videos with ease.
+      </p>
+      <div class="grid">
+        <div class="box1">
+          <div>
+            <img src="/assets/icons/monitor.svg" alt="screen" />
+            <p style="color: 928FAB">Full Screen</p>
+          </div>
+          <div>
+            <img src="/assets/icons/copy.svg" alt="copy" />
+            <p>Current Tab</p>
+          </div>
+        </div>
+        <div class="box2">
+          <div>
+            <img src="/assets/icons/video-camera.svg" alt="camera" />
+            <p>camera</p>
+          </div>
+          <SwitchBtn />
+        </div>
+        <div class="box3">
+          <div>
+            <img src="/assets/icons/microphone.svg" alt="audio" />
+            <p>Audio</p>
+          </div>
+          <button class="switch-btn" id="stop_video">
+            <span></span>
+          </button>
+        </div>
+        <button class="btn" id="start_video">Start Recording</button>
+      </div>
+    </div>
+
+    <!-- <div>
+      <h1>Screen Recorder</h1>
+      <button id="start_video">Start Video</button>
+      <button id="stop_video">Stop video</button>
+    </div> -->
+
+    <script src="/js/popup.js"></script>
+  </body>
+</html>
